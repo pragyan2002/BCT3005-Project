@@ -1,4 +1,4 @@
-# ***Resources Allocation in The Edge Computing Environment Using Reinforcement Learning***
+# ***Resource Allocation in Edge Computing Using Reinforcement Learning***
 
 ## Summary
 In recent years, cloud-based smartphone applications like augmented reality (AR), facial recognition, and object detection have gained popularity. Because of the distant execution, cloud computing may create significant latency and increasing backhaul bandwidth use. Edge computing, which moves storage and processing resources closer to mobile consumers, can increase reaction times and reduce backhaul congestion, addressing these issues.
