@@ -162,7 +162,7 @@ SCREEN_RENDER = True / False
 
 + Demo Video
 
-  ![demo video](image/dm.mov)
+  ![demo video](image/dm.mp4)
 
 ***
 
