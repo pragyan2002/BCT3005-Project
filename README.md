@@ -1,9 +1,9 @@
-# ***Resources Allocation in The Edge Computing Environment Using Reinforcement Learning***
+# ***Resource Allocation in Edge Computing Using Reinforcement Learning***
 
 ## Summary
-The cloud computing based mobile applications, such as augmented reality (AR), face recognition, and object recognition have become popular in recent years. However, cloud computing may cause high latency and increase the backhaul bandwidth consumption because of the remote execution. To address these problems, edge computing can improve response times and relieve the backhaul pressure by moving the storage and computing resources closer to mobile users.
+In recent years, cloud-based smartphone applications like augmented reality (AR), facial recognition, and object detection have gained popularity. Because of the distant execution, cloud computing may create significant latency and increasing backhaul bandwidth use. Edge computing, which moves storage and processing resources closer to mobile consumers, can increase reaction times and reduce backhaul congestion, addressing these issues.
 
-Considering the computational resources, migration bandwidth, and offloading target in an edge computing environment, the project aims to use Deep Deterministic Policy Gradient (DDPG), a kind of Reinforcement Learning (RL) approach, to allocate resources for mobile users in an edge computing environment.
+The research seeks to employ Deep Deterministic Policy Gradient (DDPG), a type of Reinforcement Learning (RL) technique, to distribute resources for mobile users in an edge computing environment, taking into account compute resources, migration bandwidth, and offloading targets.
 
  ![gui](image/Summary.png)
  picture originated from: [IEEE Inovation at Work](https://innovationatwork.ieee.org/real-life-edge-computing-use-cases/)
@@ -77,7 +77,7 @@ SCREEN_RENDER = True / False
 
 + Description
   
-  While determining the offloading server of each user is a discrete variable problem, allocating computing resources and migration bandwidth are continuous variable problems. Thus, Deep Deterministic Policy Gradient (DDPG), a model-free off-policy actor-critic algorithm, can solve both discrete and continuous problems. Also, DDPG updates model weights every step, which means the model can adapt to a dynamic environment instantly.
+  Allocating computer resources and migration bandwidth are continuous variable problems, whereas selecting the offloading server for each user is a discrete variable challenge. As a result, the model-free off-policy actor-critic method Deep Deterministic Policy Gradient (DDPG) can tackle both discrete and continuous problems. DDPG also changes model weights at every step, allowing the model to immediately adapt to a changing environment.
 
 + State
 
