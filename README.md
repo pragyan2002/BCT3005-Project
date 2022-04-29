@@ -25,13 +25,13 @@ The research seeks to employ Deep Deterministic Policy Gradient (DDPG), a type o
 $ python3 src/run_this.py
 ```
 
-### *Text Interface Eable / Diable* (in run_this.py)
+### *Text Interface Eable / Disable* (in run_this.py)
 
 ```python
 TEXT_RENDER = True / False
 ```
 
-### *Graphic Interface Eable / Diable* (in run_this.py)
+### *Graphic Interface Eable / Disable* (in run_this.py)
 
 ```python
 SCREEN_RENDER = True / False
