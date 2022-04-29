@@ -3,7 +3,7 @@
 ## Summary
 In recent years, cloud-based smartphone applications like augmented reality (AR), facial recognition, and object detection have gained popularity. Because of the distant execution, cloud computing may create significant latency and increasing backhaul bandwidth use. Edge computing, which moves storage and processing resources closer to mobile consumers, can increase reaction times and reduce backhaul congestion, addressing these issues.
 
-The research seeks to employ Deep Deterministic Policy Gradient (DDPG), a type of Reinforcement Learning (RL) technique, to distribute resources for mobile users in an edge computing environment, taking into account compute resources, migration bandwidth, and offloading targets.
+This project seeks to employ Deep Deterministic Policy Gradient (DDPG), a type of Reinforcement Learning (RL) technique, to distribute resources for mobile users in an edge computing environment, taking into account computational resources, migration bandwidth, and offloading targets.
 
  ![gui](image/Summary.png)
  picture originated from: [IEEE Inovation at Work](https://innovationatwork.ieee.org/real-life-edge-computing-use-cases/)
@@ -11,9 +11,9 @@ The research seeks to employ Deep Deterministic Policy Gradient (DDPG), a type o
 
 ## Prerequisite
 
-+ Python 3.7.5
-+ Tensorflow 2.2.0
-+ Tkinter 8.6
++ Python 3.7.5 or latest
++ Tensorflow 2.2.0 or latest
++ Tkinter 8.6 or latest
 
 ***
 
