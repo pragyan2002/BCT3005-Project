@@ -49,15 +49,15 @@ SCREEN_RENDER = True / False
   + After a request task has been processed, users need to receive the processed task from the edge server and offload a new task to an edge server again.
 
 + Edge Server
-  + Responsible for offering computational resources *(6.3 * 1e7 byte/sec)* and processing tasks for mobile users.
+  + Responsible for offering computational resources and processing tasks for mobile users.
   + Each edge server can only provide service to limited numbers of users and allocate computational resources to them.
-  + The task may be migrated from one edge server to another within limited bandwidth *(1e9 byte/sec)*.
+  + The task may be migrated from one edge server to another within limited bandwidth.
 
 + Request Task: [VOC SSD300 Objection Detection](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2)
   + state 1 : start to offload a task to the edge server
-  + state 2 : request task is on the way to the edge server *(2.7 * 1e4 byte)*
-  + state 3 : request task is proccessed *(1.08 * 1e6 byte)*
-  + state 4 : request task is on the way back to the mobile user *(96 byte)*
+  + state 2 : request task is on the way to the edge server.
+  + state 3 : request task is proccessed.
+  + state 4 : request task is on the way back to the mobile user.
   + state 5 : disconnect (default)
   + state 6 : request task is migrated to another edge server
 
@@ -139,9 +139,9 @@ SCREEN_RENDER = True / False
 ## Simulation Result
 
 + Simulation Environment
-  + 10 edge servers with computational resources *6.3 * 1e7 byte/sec*
+  + 10 edge servers with computational resources.
   + Each edge server can provide at most 4 task processing services.
-  + 3000 steps/episode, 90000 sec/episode
+  + 3000 steps/episode, 90000 sec/episode.
 
 + Result
     | Number of Clients | Average Total proccessed tasks in the last 10 episodes| Training History |
