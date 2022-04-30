@@ -5,8 +5,6 @@ In recent years, cloud-based smartphone applications like augmented reality (AR)
 
 This project seeks to employ Deep Deterministic Policy Gradient (DDPG), a type of Reinforcement Learning (RL) technique, to distribute resources for mobile users in an edge computing environment, taking into account computational resources, migration bandwidth, and offloading targets.
 
- ![gui](image/Summary.png)
- picture originated from: [IEEE Inovation at Work](https://innovationatwork.ieee.org/real-life-edge-computing-use-cases/)
 ***
 
 ## Prerequisite
@@ -25,11 +23,6 @@ This project seeks to employ Deep Deterministic Policy Gradient (DDPG), a type o
 $ python3 src/run_this.py
 ```
 
-### *Text Interface Eable / Disable* (in run_this.py)
-
-```python
-TEXT_RENDER = True / False
-```
 
 ### *Graphic Interface Eable / Disable* (in run_this.py)
 
@@ -129,10 +122,6 @@ SCREEN_RENDER = True / False
 
 + Reward
   + **Total processed tasks** in each step
-
-+ Model Architecture
-
-  ![ddpg architecture](image/DDPG_architecture.png)
 
 ***
 
